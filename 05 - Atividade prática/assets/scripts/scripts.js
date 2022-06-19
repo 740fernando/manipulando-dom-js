@@ -16,7 +16,7 @@ function cahngeText(){
 
     if(body.classList.contains(darkModeClass)){
         button.innerHTML = ligthMode;
-        h1.innerHTML = darkMode + " ON";
+        h1.innerHTML = darkMode.concat(' ON')
         return;
     }
 
